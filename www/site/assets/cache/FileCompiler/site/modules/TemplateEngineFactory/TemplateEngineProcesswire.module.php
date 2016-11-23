@@ -1,5 +1,5 @@
 <?php
- require_once(\ProcessWire\wire('files')->compile(\ProcessWire\wire("config")->paths->root . 'site/modules/TemplateEngineFactory/TemplateEngine.php',array('includes'=>true,'namespace'=>true,'modules'=>false,'skipIfNamespace'=>false)));
+require_once('TemplateEngine.php');
 
 /**
  * TemplateEngineProcesswire
@@ -9,7 +9,7 @@
  * @version 1.0.1
  *
  */
-class TemplateEngineProcesswire extends TemplateEngine implements \ProcessWire\Module, \ProcessWire\ConfigurableModule
+class TemplateEngineProcesswire extends TemplateEngine implements Module, ConfigurableModule
 {
 
     /**
@@ -32,7 +32,7 @@ class TemplateEngineProcesswire extends TemplateEngine implements \ProcessWire\M
      */
     public function initEngine()
     {
-        $this->template = new \ProcessWire\TemplateFile(\ProcessWire\wire('files')->compile($this->getTemplatesPath() . $this->getFilename(),array('includes'=>true,'namespace'=>true,'modules'=>false,'skipIfNamespace'=>false)));
+        $this->template = new TemplateFile($this->getTemplatesPath() . $this->getFilename());
     }
 
 

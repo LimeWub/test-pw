@@ -91,3 +91,17 @@ $config->installed = 1479920061;
  */
 $config->httpHosts = array('test-pw.dev', 'www.test-pw.dev');
 
+
+
+/*
+*
+* init file to include functions on all pages https://processwire.com/talk/topic/3987-cmscritic-development-case-study/?p=36867
+*/
+$config->prependTemplateFile = '_init.php';
+
+
+
+$config->debug = true; 
+$config->templateCompile = false;
+//$config->moduleCompile = false;
+

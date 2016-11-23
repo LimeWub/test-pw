@@ -1,0 +1,5 @@
+*.DS_STORE*
+**.DS_STORE**
+*config.codekit*
+**config.codekit**
+www/site/assets/
