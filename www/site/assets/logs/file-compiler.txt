@@ -1,0 +1,9 @@
+2016-11-23 17:09:48	admin	http://test-pw.dev/	Compiled file: /site/templates/home.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineFactory/TemplateEngineFactory.module.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineFactory/TemplateEngineNull.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineFactory/TemplateEngine.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineFactory/TemplateEngineChunk.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineFactory/TemplateEngineProcesswire.module.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineSmarty/TemplateEngineSmarty.module
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineSmarty/smarty/libs/Smarty.class.php
+2016-11-23 17:12:28	admin	http://test-pw.dev/processwire/module/?reset=2	Compiled file: /site/modules/TemplateEngineSmarty/smarty/libs/Autoloader.php
